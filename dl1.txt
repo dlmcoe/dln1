@@ -1,0 +1,70 @@
+1)	What is Deep learning ?
+
+Deep Learning
+Deep learning is a subfield of machine learning (ML) that concerns artificial neural networks (ANNs). ANNs are inspired by the structure and function of the human brain, and are composed of interconnected nodes or neurons. These neurons can process and transmit information, allowing ANNs to learn from data and make predictions or decisions. Deep learning architectures typically consist of multiple layers of neurons, hence the term "deep".
+
+2)	What are various packages in python for supporting Machine Learning libraries and which are mainly used for Deep Learning ?
+
+Python Packages for Machine Learning
+Several Python packages support machine learning algorithms and libraries, including:
+•	scikit-learn: A comprehensive library for various ML tasks, including classification, regression, clustering, and dimensionality reduction.
+•	TensorFlow: A popular library for deep learning, offering high-performance numerical computation and GPU support.
+•	PyTorch: Another powerful deep learning library, known for its dynamic computational graph and ease of use.
+•	Keras: A high-level neural network library built atop TensorFlow, providing a user-friendly interface for model building and training.
+3)	Compare Tensorflow / Keras/Theno and PyTorch on following points(make a table) :
+i.	Available Functionality
+ii.	GUI status
+iii.	Versions.
+iv.	Features
+Comparison of Tensorflow, Keras, Theano, and PyTorch
+
+Feature	TensorFlow	Keras	Theano	PyTorch
+Available Functionality	Deep learning, numerical computation, GPU support	Deep learning, user-friendly interface	Deep learning, symbolic differentiation	Deep learning, dynamic computational graph, flexible tensor operations
+GUI Status	TensorFlow Lite provides mobile and embedded GUI support	Keras provides a high-level API for model building and training	No built-in GUI	PyTorch provides a lightweight GUI with Qt
+Versions	Stable releases (e.g., TensorFlow 2.x) and experimental versions (e.g., TensorFlow Lite, TensorFlow Probability)	Keras integrates with TensorFlow and maintains compatibility with its versions	Theano has been discontinued since 2021	PyTorch maintains stable releases (e.g., PyTorch 1.x)
+Features	Autodifferentiation, eager execution, extensive community support	Model building abstractions, pre-trained models, integration with TensorFlow	Symbolic differentiation, efficient GPU support	Dynamic computational graph, tensor operations, extensive community support
+
+4)	Enlist the Models Datasets and pretrained models, Libraaries and Extensions , Tools related to Tensorflow also discuss any two casestudies like (PayPal, Intel, Etc. ) related to Tensor Flow.
+TensorFlow Ecosystem
+The TensorFlow ecosystem includes various tools, libraries, and extensions that enhance its capabilities:
+•	Models: TensorFlow Hub provides a repository of pre-trained models for various tasks.
+•	Datasets: TensorFlow Datasets simplifies data loading and preprocessing.
+•	Pretrained Models: TensorFlow provides pre-trained models for tasks like image classification, natural language processing, and speech recognition.
+•	Libraries and Extensions: TensorFlow offers various libraries and extensions for specific domains, such as TensorFlow Recommenders for recommendation systems and TensorFlow Federated for federated learning.
+•	Tools: TensorFlow provides tools for model optimization, debugging, and deployment.
+Case Studies
+•	PayPal: PayPal utilizes TensorFlow for fraud detection and risk management.
+•	Intel: Intel uses TensorFlow for optimizing hardware performance and developing AI applications.
+5)	Explain.the.Keras,Ecosystem.(kerastuner,kerasNLP,kerasCV,Autokeras and Modeloptimization.). Also explain following concepts related to keras :
+1.	Developing sequential Model
+2.	Training and validation using the inbuilt functions
+3.	Parameter Optimization.
+Keras Ecosystem
+The Keras ecosystem includes extensions that enhance its functionality:
+•	KerasTuner: A tool for hyperparameter tuning and model optimization.
+•	KerasNLP: A library for natural language processing tasks, including text classification, sentiment analysis, and machine translation.
+•	KerasCV: A library for computer vision tasks, including image classification, object detection, and segmentation.
+•	AutoKeras: An automated machine learning library that simplifies model building for non-experts.
+•	ModelOptimization: A suite of tools for optimizing model performance and reducing latency.
+Concepts Related to Keras
+•	Developing Sequential Model: Keras provides a sequential model API for building models by stacking layers.
+•	Training and Validation Using Inbuilt Functions: Keras offers functions for training and evaluating models, including fit() and evaluate().
+•	Parameter Optimization: Keras provides callbacks for monitoring and optimizing training, such as EarlyStopping and ReduceLROnPlateau.
+6)	Explain simple Theano program.
+Theano Program
+A simple Theano program might involve defining a symbolic expression, computing its value, and printing the result:
+Python
+import theano as T
+x = T.var()
+y = 2*x + 1
+result = T.function(inputs=[x], outputs=y)
+
+print(result(2))  # Output: 5
+7)	Explain PyTorch Tensors . And also explain Uber’ s Pyro, Tesala Autopilot.
+
+PyTorch Tensors
+PyTorch Tensors are fundamental data structures that represent multi-dimensional arrays. They can be manipulated using various operations, including arithmetic operations, indexing, and reshaping.
+Uber's Pyro
+Pyro is a probabilistic programming language developed by Uber that utilizes PyTorch for efficient probabilistic inference. It allows users to define probabilistic models and automatically perform inference using techniques like variational inference and Hamiltonian Monte Carlo.
+Tesla Autopilot
+Tesla Autopilot employs deep learning algorithms, likely based on TensorFlow or PyTorch, for various tasks, including object
